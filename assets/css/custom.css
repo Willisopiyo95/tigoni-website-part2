@@ -3,9 +3,9 @@
 :root {
     --primary-color: #fff;
     --secondary-color: #232323;
-    --accent: #D27D2D;
+    --accent: #a02d68;
     --text-color: #7a7a7a;
-    --button-color: #6a6a45;
+    --button-color: #12626B;
 }
 
 * {
@@ -163,6 +163,7 @@ h5 {
 .header-main-con .phone-txt span {
     font-size: 12px;
     letter-spacing: 1px;
+    display: block;
     color: var(--primary-color);
 }
 
@@ -189,7 +190,7 @@ h5 {
 
 .header-main-con .phone-txt a {
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 500;
     color: var(--primary-color);
 }
 
@@ -225,7 +226,7 @@ h5 {
 
 .banner-main-section::after {
     content: "";
-    background: rgb(106, 106, 69,.8);
+    background: rgb(37, 143, 86,0.4);
     position: absolute;
     left: 0;
     top: 0;
@@ -1009,7 +1010,7 @@ h5 {
 
 .counter-outer-layer {
     height: 100%;
-    background: rgb(21, 108, 95, 0.9);
+    background: rgb(37, 143, 86,0.4);
     padding: 105px 0;
 }
 
@@ -1035,7 +1036,7 @@ h5 {
 .counter-inner-sec ul li {
     text-align: center;
     color: var(--primary-color);
-    border-right: 1px solid #4b897e;
+    border-right: 1px solid #258F56;
 }
 
 .counter-inner-sec ul li:hover figure {
@@ -1488,7 +1489,7 @@ h5 {
 .subscribe-con input {
     width: 492px;
     font-size: 14px;
-    background: #e99546;
+    background: #fff;
     padding: 17px 20px 18px;
     border-radius: 8px;
     color: var(--primary-color);
@@ -1542,8 +1543,8 @@ h5 {
 /* subscribe section styling start */
 /* footer section style end */
 .footer-main-section {
-    background: #6a6a45;
-    border-bottom: 1px solid #6a6a45;
+    background: #258F56;
+    border-bottom: 1px solid #258F56;
 }
 
 .footer-logo-con .social-links ul li {
@@ -1564,7 +1565,7 @@ h5 {
 }
 
 .footer-logo-con .social-links ul li a {
-    background: #79794d;
+    background: #258F56;
     transition: .3s ease-in-out;
 }
 
@@ -1670,7 +1671,7 @@ h5 {
 
 .copy-rihgt-sec {
     padding: 25px 25px;
-    background: #6a6a45;
+    background: #258F56;
     cursor:pointer;
 }
 
