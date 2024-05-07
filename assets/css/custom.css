@@ -690,7 +690,7 @@ h5 {
     content: "";
     height: 100%;
     position: absolute;
-    background: rgb(238 137 97 / 100%);
+    background-color: #91446c;
 }
 
 .contact-con:after {
@@ -720,7 +720,7 @@ h5 {
     width: 516px;
     position: relative;
     z-index: 1;
-    color: var(--primary-color);
+    color: var(--accent);
 }
 
 .form-box ul li {
@@ -739,10 +739,10 @@ h5 {
     border: none;
     font-size: 14px;
     height: 53px;
-    color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
     width: 100%;
-    background: #e99546;
-    box-shadow: 0 0 0 1px #D27D2D;
+    background: #ffffff;
+    box-shadow: 0 0 0 1px #ffffff;
     padding: 10px 35px 10px 23px;
     border-radius: 5px;
 }
@@ -805,7 +805,7 @@ h5 {
 .contact-form span,
 .contact-form h2,
 .contact-form p,
-.form-box ul li input::placeholder {
+.form-box ul li input {
     color: var(--primary-color);
 }
 
@@ -821,9 +821,9 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #e99546;
+    background: #258F56;
     border: none;
-    box-shadow: 0 0 0 1px #D27D2D;
+    box-shadow: 0 0 0 1px #258F56;
     padding: 0 10px 0 23px;
     height: 53px;
     border-radius: 5px;
@@ -837,7 +837,7 @@ h5 {
     outline: none;
     border: none;
     background: none;
-    box-shadow: 0 0 0 1px #D27D2D;
+    box-shadow: 0 0 0 1px #258F56;
 }
 
 .contact-con form ul {
@@ -857,8 +857,8 @@ h5 {
 .contact-con .btn-secondary:not(:disabled):not(.disabled):active,
 .contact-con .show>.btn-secondary.dropdown-toggle {
     color: #fff;
-    background-color: #e99546;
-    box-shadow: 0 0 0 1px #D27D2D;
+    background-color: #258F56;
+    box-shadow: 0 0 0 1px #258F56;
     border: none;
 }
 
@@ -867,13 +867,13 @@ h5 {
 }
 
 .contact-con .show>.btn-secondary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 1px #D27D2D;
-    background: #e99546;
+    box-shadow: 0 0 0 1px #258F56;
+    background: #258F56;
 }
 
 .contact-con .btn-secondary:not(:disabled):not(.disabled).active,
 .contact-con .btn-secondary:not(:disabled):not(.disabled):active {
-    background: #e99546;
+    background: #258F56;
 }
 
 .contact-con form ul li .dropdown-menu.show {

@@ -7,19 +7,19 @@ body {
 
 :root {
     --e-global-color-primary: #343434;
-    --e-global-color-secondary: #fa5733;
+    --e-global-color-secondary: #258F56;
     --e-global-color-text: #828282;
-    --e-global-color-accent: #fa5733;
+    --e-global-color-accent: #258F56;
 	--e-global-color-white: #ffffff;
     --e-global-color-very-dark-gray: #4c4c4c;
     --e-global-color-very-dark-black: #2d2d2d;
     --e-global-color-light-gray: #f8f8f8;
     --e-global-color-desaturated-blue: #7e82b8;
-    --e-global-color-light-orange: #ffbf44;
+    --e-global-color-light-orange: #258F56;
     --e-global-color-very-very-light-gray: #eaeaea;
     --primary-color: #fff;
     --secondary-color: #232323;
-    --accent: #ee8961;
+    --accent: #258F56;
     --text-color: #7a7a7a;
     --button-color: #156c5f;
 }
