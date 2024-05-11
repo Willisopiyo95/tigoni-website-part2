@@ -2,6 +2,7 @@
     .header-main-con .navbar-nav {
         gap: 14px;
         margin-right: 20px;
+        background-color: transparent !important;
     }
 
     .header-main-con .phone-txt a {
@@ -772,6 +773,7 @@
     .header-main-con .navbar-nav {
         gap: 13px;
         margin-right: 20px;
+        background-color: transparent !important;
     }
     .header-contact .phone {
         padding-right: 10px;
@@ -792,12 +794,16 @@
     .header-main-con .navbar-nav {
         gap: 9px;
         margin-right: 10px;
+        background-color: transparent !important;
     }
     .cart-box a:first-child {
         margin-right: 13px;
     }    
     .navbar-light .navbar-brand figure img {
-        width: 90px;
+       width: 90px;
+       margin-bottom: 20px;
+        
+       
     }
     .header-contact .phone {
         padding-left: 15px;
@@ -1549,7 +1555,7 @@
         width: 70%;
         height: 2px;
         margin: 3px 0px;
-        background: #fff;
+        background: transparent;
     }
 
     .navbar-light .navbar-toggler {
@@ -1590,7 +1596,7 @@
         margin-bottom: 7px;
     }
     .navbar-nav .dropdown-menu .dropdown-item {
-        color: var(--primary-color);
+        color:transparent;
     }
 
     .header-main-con .dropdown-item.active,
@@ -1607,7 +1613,7 @@
     .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
         padding: 4px 20px;
         color: var(--secondary-color);
-        background: var(--primary-color);
+        background:transparent;
     }
 
     .index2-header-con .navbar-light .navbar-nav .nav-link,
@@ -1616,7 +1622,7 @@
     }
 
     .index2-header-con .phone figure {
-        background: var(--accent);
+        background: transparent;
     }
 
     .index2-header-con .phone-txt span,

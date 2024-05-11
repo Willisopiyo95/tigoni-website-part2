@@ -102,6 +102,9 @@ h5 {
 .container-fluid {
     padding: 0 15.3%;
 }
+.navbar {
+    background-color: transparent !important;
+}
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
@@ -1697,7 +1700,7 @@ h5 {
 }
 
 .index2-header-con .header-contact .phone {
-    border-right: 1px solid var(--text-color);
+    border-right: 1px solid var(--text-color); 
 }
 
 .index2-header-con .cart-box a i {
@@ -1723,15 +1726,16 @@ h5 {
 
 /* index2 banner style start */
 .index2-banner-section {
-    background: url(../images/index2-banner-img.jpg) no-repeat center;
-    height: 937px;
+    background: url(../images/banner-bg-image.jpg) no-repeat top;
+    height: 1050px;
     background-size: cover;
     position: relative;
+    overflow: hidden;
 }
 
 .index2-banner-section::before {
     content: "";
-    background: rgb(0, 0, 0, .5);
+    background: url(../images/banner-bg-image.jpg) no-repeat center;
     width: 100%;
     height: 100%;
     position: absolute;
