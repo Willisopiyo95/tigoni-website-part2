@@ -168,7 +168,7 @@ h5 {
     font-size: 12px;
     letter-spacing: 1px;
     display: block;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
 }
 
 .header-main-con .phone figure {
@@ -179,7 +179,7 @@ h5 {
     align-items: center;
     justify-content: center;
     border-radius: 100%;
-    background: var(--accent);
+    background: var(--accent); 
 }
 
 .cart-box {
