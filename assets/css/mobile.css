@@ -228,6 +228,7 @@
 
     h1,
     .banner2-con h1 {
+      
         font-size: 58px;
         line-height: 68px;
     }
@@ -329,9 +330,10 @@
 
     .index2-banner-section {
         background: url(../images/index2-banner-img.jpg) no-repeat center;
-        height: 750px;
+        height: 1050px;
         background-size: cover;
         position: relative;
+       
     }
 
     .banner2-con p {
@@ -591,7 +593,7 @@
 
     /* index2 responsive start */
     .index2-banner-section {
-        height: 600px;
+        height: 750px;
     }
 
     .banner2-con h1 {
@@ -1014,7 +1016,7 @@
     }
 
     .index2-banner-section {
-        height: 510px;
+        margin-top: 0;
     }
 
     .index2-banner-shape::after {
@@ -2041,8 +2043,8 @@
     }
 
     .index2-banner-section {
-        height: 450px;
-        margin-top: 70px;
+        /* height: 450px; */
+        margin-top: 0px;
     }
 
     .index2-banner-shape::after {
@@ -3595,7 +3597,7 @@
     }
 
     .index2-banner-section {
-        margin-top: 60px;
+        margin-top: 0px;
     }
 
     .top-to-bottom-btn {
