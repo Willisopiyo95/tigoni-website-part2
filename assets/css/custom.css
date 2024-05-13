@@ -102,9 +102,7 @@ h5 {
 .container-fluid {
     padding: 0 15.3%;
 }
-.navbar {
-    background-color: transparent !important;
-}
+
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
@@ -150,7 +148,7 @@ h5 {
 
 .header-main-con .dropdown-item.active,
 .header-main-con .dropdown-item:active {
-    /* color: #fff; */
+    color: #fff; 
     text-decoration: none;
     background-color: var(--accent);
 }

@@ -802,8 +802,8 @@
         margin-right: 13px;
     }    
     .navbar-light .navbar-brand figure img {
-       /* width: 90px;
-       margin-bottom: 20px; */
+       width: 90px;
+       margin-bottom: 20px; 
         
        
     }
@@ -1557,7 +1557,7 @@
         width: 70%;
         height: 2px;
         margin: 3px 0px;
-        background: transparent;
+        background-color: var(--primary-color);
     }
 
     .navbar-light .navbar-toggler {
