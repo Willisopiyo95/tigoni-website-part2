@@ -329,7 +329,7 @@
 
     .index2-banner-section {
         background: url(../images/index2-banner-img.jpg) no-repeat center;
-        height: 720px;
+        height: 750px;
         background-size: cover;
         position: relative;
     }
@@ -800,8 +800,8 @@
         margin-right: 13px;
     }    
     .navbar-light .navbar-brand figure img {
-       width: 90px;
-       margin-bottom: 20px;
+       /* width: 90px;
+       margin-bottom: 20px; */
         
        
     }
