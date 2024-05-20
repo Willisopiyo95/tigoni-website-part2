@@ -87,7 +87,7 @@ h5 {
 }
 
 .padding-top {
-    padding-top: 20px;
+    padding-top: 5px;
 }
 
 .padding-bottom {
@@ -581,20 +581,20 @@ h5 {
     border: none;
     height: 50px;
     width: 50px;
-    z-index: 2;
+    z-index: 10;
     color: #fff;
     display: flex;
     cursor: pointer;
     font-size: 2.2rem;
-    background: #000;
+    background: #a02d68;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    transform: translateY(-20%);
+    transform: translateY(-10%);
 }
 
 .slider-wrapper .slide-button:hover {
-    background: #0e0b08;
+    background: #12626B;
 }
 
 .slider-wrapper .slide-button#prev-slide {
@@ -650,7 +650,7 @@ h5 {
 
 .slider-scrollbar .scrollbar-thumb {
     position: absolute;
-    background: #000;
+    background: #a02d68;
     top: 0;
     bottom: 0;
     width: 50%;
